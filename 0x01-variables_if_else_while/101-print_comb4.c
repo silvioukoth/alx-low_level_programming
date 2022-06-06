@@ -5,7 +5,7 @@
  *         in ascending order, separated by a comma followed by a space
  * Return: always 0
  */
-int main(voiv)
+int main(void)
 {
 	int digit1, digit2;
 
