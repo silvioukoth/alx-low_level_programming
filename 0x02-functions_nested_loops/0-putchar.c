@@ -3,10 +3,14 @@
 /**
  * main -> prints putchar followed by a new line
  *
- * return: Always 0
+ * return: always 0
  */
 int main(void)
 {
+	int i;
+
+	while (i < 9)
+	{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -16,6 +20,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+	}
 
 	return (0);
 }
