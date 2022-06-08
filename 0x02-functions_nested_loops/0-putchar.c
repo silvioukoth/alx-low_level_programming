@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main ->prints puchar followed by a new line
+ * main -> prints _puchar followed by a new line
  *
  * Return: Always 0
  *
  */
-int main(void)
+int _putchar(char)
 {
 	_putchar('_');
 	_putchar('p');
@@ -18,4 +18,3 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 }
-
