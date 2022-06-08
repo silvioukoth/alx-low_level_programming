@@ -1,13 +1,13 @@
-#include "Ukoth.h"
+#include "_putchar.h"
 
 /**
- * main -> prints Ukoth
+ * main -> prints _putchar followed by a new line
  *
  * Return: Always 0
  */
 int main(void)
 {
-	char c[10] = "Ukoth"
+	char c[10] = "_putchar"
 	int i = 0
 
 	while (i < 9)

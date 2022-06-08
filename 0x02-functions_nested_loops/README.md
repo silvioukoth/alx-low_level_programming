@@ -1,1 +1,1 @@
-Write a function that prints the 9 times table, starting with 0
+Write a program that prints _putchar, followed by a new line
