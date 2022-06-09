@@ -2,7 +2,7 @@
 
 /**
  *  infinite loop - causes an infinite loop
- *  return: 0
+ *  return: always 0
  */
 
 int main(void)
