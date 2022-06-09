@@ -1,1 +1,1 @@
-Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line
+part of the code that is causing the output to go into an infinite loop.
