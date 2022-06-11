@@ -1,27 +1,21 @@
 #include "main.h"
-
 /**
- * main -> prints putchar followed by a new line
- *Description: prints _putchar
- * return: always 0
+ * main - entry point
+ * Description: print _putchar
+ * Return: 0
  */
+
 int main(void)
 {
-	int i;
+	char word[9] = "_putchar"
 
-	while (i < 9)
+		int i = 0;
+	
+	while(i < 9)
 	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+		_putchar(word[i]);
+		i++;
 	}
-
+	_putchar('\n');
 	return (0);
 }
-
