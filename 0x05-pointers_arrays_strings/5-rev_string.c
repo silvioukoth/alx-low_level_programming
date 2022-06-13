@@ -3,26 +3,23 @@
 /**
  *  rev_string - Reverses a string
  *  @s: The string to be modified
- *
+ *  Description: function prints string in reverse followed by a new line.
  *  Return: void
  */
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, aux;
+	int lenght = 0;
+	int i;
+	int ch;
 
-	a = s;
+	while (s[lenght] != '\0')
+		lenght++;
+	/* lenght-- es para que no tome el ultimo espacio que es vacío*/
 
-	while (s[c] != '\0')
+	for (lenght--, i = 0; i <= lenght; lenght--, i++)
 	{
-		c++;
-	}
-
-	for (k = 1; k < c; k++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+		ch = s[i];
+		s[i] = s[lenght];
+		s[lenght] = ch;
 	}
 }
