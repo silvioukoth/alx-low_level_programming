@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * isupper -main entry.
- * @c: integer to be checked
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isupper - Check if a letter is uppercase
+ * @c: The number to be checked
+ *
+ *  Return: 0 or 1
  */
 
-
-int _isupper(int c);
+int _isupper(int c)
 {
-	/*65 y 90 son los codigos ascci para A y Z */
-
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	return (0);
+	else
+		return (0);
 }
-
