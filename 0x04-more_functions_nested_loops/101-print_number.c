@@ -10,7 +10,7 @@ void print_number(int n)
 {
 	unsigned int k = n;
 
-	f (n < 0)
+	if (n < 0)
 	{
 		n *= -1;
 		k = n;
