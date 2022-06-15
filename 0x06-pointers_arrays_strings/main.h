@@ -4,5 +4,6 @@
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 ar *_strncat(char *dest, char *src, int n);
+ar *_strncpy(char *dest, char *src, int n);
 
 #endif
