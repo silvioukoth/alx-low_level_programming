@@ -2,7 +2,7 @@
 
 /**
  * _strncat -> appends src to the dest string
- * @src: @dest: string to append by src
+ * @dest: string to append by src
  * @src: string to append to dest
  * @n: largest number of bytes to append
  *
