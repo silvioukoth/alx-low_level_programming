@@ -11,11 +11,11 @@
 int square(int i, int n)
 {
 	if (i == n)
-		return (i);
+	return (i);
 	else if (i > n / 2)
-		return (-1);
+	return (-1);
 	else
-		return (square(i + 1, n));
+	return (square(i + 1, n));
 }
 
 /**
