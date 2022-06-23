@@ -8,7 +8,7 @@ int wildcmp(char *s1, char *s2);
 
   /**
    * strlen_no_wilds - Returns the length of a string,
-   * ignnoring wildcard character
+   *                   ignnoring wildcard character
    * @str: The string to be measured
    *
    * Return: the length
