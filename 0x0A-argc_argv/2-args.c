@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main -> prints all arguments it recieves
- * @argc: checks the numbers of argument passed to the program
+ * main -> prints all arguments it recieves with new line
+ * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * return: 0
+ * return: always 0
  */
 int main(int argc, char *argv[])
 {
