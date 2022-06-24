@@ -3,28 +3,24 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the multiplication of two args numbers.
- * @argc: argument count
- * @argv: argument vector
- * *
- * Return: Always zero
+ * main - multipling function
+ * @argc: count of the arguments supplied to the program
+ * @argv: array of pointers to the strings
+ *
+ * return: always 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	int n1 = 0, n2 = 0;
+	int i, j, c;
 
-	if (argc == 3)
+	i = 1;
+	j = 2;
+	c = 3;
+	if (argc != c)
 	{
-		n1 = atoi(argv[1]);
-		n2 = atoi(argv[2];
-		printf("%d\n", n1 * n2);
+		printf("Error\n");
+		return (1);
 	}
-	else
-	{
-	printf("Error\n");
-	return (1);
-	}
-
+	printf("%d\n", atoi(argv[i]) * atoi(argv[j]));
 	return (0);
 }
-

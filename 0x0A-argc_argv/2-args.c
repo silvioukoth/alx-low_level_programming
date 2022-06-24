@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main -> prints all arguments it recieves with new line
+ * main - prints all arguments it recieves with new line
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
