@@ -2,32 +2,39 @@
 #include <stdlib.h>
 
 /**
- * main -> Prints the addition of positive numbers,
- *         and then followed by a new line
- * @argc: The number of arguments passed to the program
- * @argv: argument vector to string
+ * main -> print minimum number of coins to passed to program
+ * @argc: argument to passed to function
+ * @argv: argument vector pointer to string
  *
- * Return: If one of the numbers contains symbols that are non-digits - 1
- *         or 0 otherwise
+ * Return: 0 if no errors, else 1
  */
 int main(int argc, char *argv[])
 {
-	int num, digit, sum = 0;
+	int a, n = 0, i, t;
+	int c[5] = {25, 10, 5, 2, 1};
 
-	for (num = 1; num < argc; num++)
+	if (argc != 2)
 	{
-		for (digit = 0; argv[num][digit]; digit++)
-		{
-			if (argv[num][digit] < '0' || argv[num][digit] > '9')
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-
-		sum += atoi(argv[num]);
+		puts("Error");
+		return (1);
 	}
-
-	printf("%d\n", sum);
+	a = atoi(argv[1]);
+	if (a <= 0)
+	{
+		puts("0");
+		return (1);
+	}
+	else
+	{
+		for (i = 0; i < 5; i++)
+		{
+			t = a / c[i];
+			a -= t * c[i];
+			n += t;
+			if (a == 0)
+				break;
+		}
+	}
+	printf("%d\n", n);
 	return (0);
 }
