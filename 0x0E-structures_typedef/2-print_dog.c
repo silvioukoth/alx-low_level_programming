@@ -5,13 +5,11 @@
 /**
  * print_dog - Prints a struct dog.
  * @d: The struct dog to be printed.
- *
- * Return: Nothing
  */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
-		return NULL;
+		return;
 
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
