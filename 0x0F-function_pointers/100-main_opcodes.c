@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	bytes = atoi(argv[1]);
 
-	if (byte < 0)
+	if (bytes < 0)
 	{
 		printf("error\n");
 			exit(2);
