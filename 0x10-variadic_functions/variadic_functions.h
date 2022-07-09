@@ -11,8 +11,8 @@
  */
 typedef struct printer
 {
-	char *p;
-	void (*q)(va_list);
+	char *symbol;
+	void (*print)(va_list arg);
 } print_t;
 
 int _putchar(char);
