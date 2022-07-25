@@ -9,6 +9,8 @@ void close_file(int fd);
  * reate_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
  *
+ * Description: allocate bytes store in thhe buffer
+ *
  * Return: A pointer to the newly-allocated buffer.
  */
 char *create_buffer(char *file)
