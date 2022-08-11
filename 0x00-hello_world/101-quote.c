@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main -> C program to prints piece of art
