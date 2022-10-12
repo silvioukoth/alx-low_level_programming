@@ -28,7 +28,7 @@ typedef enum bool
  */
 typedef struct listint_s
 {
-	onstr int n;
+	const int n;
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
