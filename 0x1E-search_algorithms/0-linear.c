@@ -11,7 +11,7 @@
  *
  * Description: Prints a value every time itis comppplared in the array.
  */
-int lieanre_search(int *array, size_t size, int value)
+int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
 
